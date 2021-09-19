@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GD3_A_10181</string>
+    <string name="input_data_pegawai">INPUT DATA PEGAWAI</string>
+    <string name="cancel">CANCEL</string>
+    <string name="create">CREATE</string>
+    <string name="nama_pegawai">Nama Pegawai</string>
+    <string name="nomor_pokok_pegawai">Nomor Pokok Pegawai</string>
+    <string name="jabatan_pegawai">Jabatan Pegawai</string>
+    <string name="alamat_pegawai">Alamat Pegawai</string>
+    <string name="gaji_pegawai">Gaji Pegawai</string>
+    <string name="tanggal_masuk_pegawai">Tanggal Masuk Pegawai</string>
+    <string name="back">BACK</string>
+    <string name="guided_data_binding">GUIDED DATA BINDING</string>
+    <string name="semangat_belajar_data_binding">Semangat Belajar Data Binding</string>
+    <string name="one_way_data_binding">One Way Data Binding</string>
+    <string name="two_way_data_binding">Two Way Data Binding</string>
+</resources>
