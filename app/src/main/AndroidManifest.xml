@@ -21,6 +21,7 @@
         <activity android:name=".oneway.TampilPegawai"></activity>
         <activity android:name=".twoway.InputDataPegawai"></activity>
         <activity android:name=".twoway.DetailDataPegawai"></activity>
+        <activity android:name=".ugddatabinding.TampilDataPesertaVaksin"></activity>
     </application>
 
 </manifest>

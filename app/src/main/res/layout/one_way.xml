@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nama Pegawai"
+                android:text="@string/nama_pegawai"
                 android:textStyle="bold" />
 
             <TextView
@@ -32,12 +32,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="@{pgw.nama_pegawai}"
-                android:hint="Nama Pegawai" />
+                android:hint="@string/nama_pegawai" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nomor Pokok"
+                android:text="@string/nomor_pokok"
                 android:textStyle="bold" />
 
             <TextView
@@ -45,12 +45,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="@{pgw.nomor_pokok}"
-                android:hint="Nomor Pokok" />
+                android:hint="@string/nomor_pokok" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Jabatan"
+                android:text="@string/jabatan"
                 android:textStyle="bold" />
 
             <TextView
@@ -58,12 +58,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="@{pgw.jabatan}"
-                android:hint="Jabatan" />
+                android:hint="@string/jabatan" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gaji Pokok"
+                android:text="@string/gaji_pokok"
                 android:textStyle="bold" />
 
             <TextView
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="@{String.valueOf(pgw.gaji)}"
-                android:hint="Gaji Pegawai" />
+                android:hint="@string/gaji_pegawai" />
         </LinearLayout>
     </RelativeLayout>
 </layout>

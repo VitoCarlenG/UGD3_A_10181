@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GD3_A_10181</string>
+    <string name="app_name">UGD3_A_10181</string>
     <string name="input_data_pegawai">INPUT DATA PEGAWAI</string>
     <string name="cancel">CANCEL</string>
     <string name="create">CREATE</string>
@@ -14,4 +14,11 @@
     <string name="semangat_belajar_data_binding">Semangat Belajar Data Binding</string>
     <string name="one_way_data_binding">One Way Data Binding</string>
     <string name="two_way_data_binding">Two Way Data Binding</string>
+    <string name="nomor_pokok">Nomor Pokok</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="gaji_pokok">Gaji Pokok</string>
+    <string name="unguided_data_binding">UNGUIDED DATA BINDING</string>
+    <string name="alamat_peserta">Alamat Peserta</string>
+    <string name="tanggal_vaksin">Tanggal Vaksin</string>
+    <string name="tensi_peserta">Tensi Peserta</string>
 </resources>

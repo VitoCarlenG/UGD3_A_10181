@@ -1,15 +1,16 @@
 package com.databinding.gd3_a_10181;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+
 import com.databinding.gd3_a_10181.databinding.ActivityMainBinding;
 import com.databinding.gd3_a_10181.oneway.TampilPegawai;
 import com.databinding.gd3_a_10181.twoway.InputDataPegawai;
+import com.databinding.gd3_a_10181.ugddatabinding.TampilDataPesertaVaksin;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent mainActivity=new Intent(MainActivity.this, InputDataPegawai.class);
+            startActivity(mainActivity);
+        }
+    };
+
+    public View.OnClickListener btnUGDBinding=new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent mainActivity=new Intent(MainActivity.this, TampilDataPesertaVaksin.class);
             startActivity(mainActivity);
         }
     };

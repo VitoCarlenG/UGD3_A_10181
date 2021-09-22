@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <data>
+        <variable
+            name="dp"
+            type="com.databinding.gd3_a_10181.ugddatabinding.DataPeserta" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/white" >
+
+        <ImageView
+            android:id="@+id/glide"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/squidward"
+            android:layout_marginStart="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="110dp" >
+
+            <TextView
+                android:id="@+id/tv_nama_pegawai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_pegawai"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                style="@style/TextAppearance.MaterialComponents.Headline5" />
+
+            <TextView
+                android:id="@+id/tv_nomor_pokok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nomor_pokok"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                style="@style/TextAppearance.MaterialComponents.Headline5" />
+
+            <TextView
+                android:id="@+id/tv_jabatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jabatan"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                style="@style/TextAppearance.MaterialComponents.Headline5" />
+
+            <TextView
+                android:id="@+id/tv_alamat_peserta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alamat_peserta"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:textSize="14sp"
+                style="@style/TextAppearance.MaterialComponents.Headline5" />
+
+            <TextView
+                android:id="@+id/tv_tensi_peserta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tensi_peserta"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                style="@style/TextAppearance.MaterialComponents.Headline5" />
+
+            <TextView
+                android:id="@+id/tv_tanggaal_vaksin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal_vaksin"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_marginBottom="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="120dp">
+
+            <TextView
+                android:id="@+id/tv_nama_pegawai_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="15dp"
+                android:text="@{dp.nama_pegawai}"
+                android:hint="@string/nama_pegawai" />
+
+            <TextView
+                android:id="@+id/tv_nomor_pokok_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:layout_marginStart="110dp"
+                android:text="@{dp.nomor_pokok}"
+                android:hint="@string/nomor_pokok" />
+
+            <TextView
+                android:id="@+id/tv_jabatan_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="8dp"
+                android:text="@{dp.jabatan}"
+                android:hint="@string/jabatan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="93dp" >
+
+
+            <TextView
+                android:id="@+id/tv_alamat_peserta_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="110dp"
+                android:text="@{dp.alamat}"
+                android:hint="@string/alamat_peserta" />
+
+            <TextView
+                android:id="@+id/tv_tensi_peserta_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="110dp"
+                android:text="@{String.valueOf(dp.tensi)}"
+                android:hint="@string/tensi_peserta" />
+
+            <TextView
+                android:id="@+id/tv_tanggal_vaksin_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="110dp"
+                android:text="@{dp.tanggalVaksin}"
+                android:hint="@string/tanggal_vaksin" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>
